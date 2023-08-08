@@ -10,6 +10,9 @@ import org.hibernate.boot.registry.StandardServiceRegistry;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 
+import javax.jms.Session;
+import javax.security.auth.login.Configuration;
+
 /**
  * This is the session factory configuration class
  */
